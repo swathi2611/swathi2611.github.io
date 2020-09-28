@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0213)file:///C:/Users/gshiv/Desktop/swathi/Week%204/Week%203/survey_data.html?email=swathireddy.bendram26%40gmail.com&firstname=swathi&lastname=reddy&state=MD&zipcode=21076&web=websearch&facebook=facebook&button=Submit -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Survey Data</title>
+<style>
+    body {
+    	width: 500px;
+    	margin: 0 auto;
+    	padding: 0 30px;
+    	border: 2px solid blue;
+    }
+    dt {
+        font-weight: bold;
+    }
+</style>
+<script type="text/javascript">
+//<![CDATA[
+var decode = function ( text ) {
+    text = text.replace(/\+/g, " ");
+    text = text.replace(/%[a-fA-F0-9]{2}/g, 
+        function ( text ) {
+            return String.fromCharCode( "0x" + text.substr(1,2));
+        }
+    );
+    return text;
+}
+    
+var display_data = function () {
+    var query = location.search.replace("?", "");
+    if ( query == "" ) return;
+    
+    var fields = query.split("&");
+    
+    if ( fields.length == 0 ) {
+        document.write("<p>No data was submitted.</p>");
+    } else {
+        document.write("<dl>");
+        var field_parts;
+        for ( var i in fields ) {
+            field_parts = fields[i].split("=");
+            field_parts[0] = decode( field_parts[0] );
+            field_parts[1] = decode( field_parts[1] );
+            document.write("<dt>" + field_parts[0] + "</dt>");
+            document.write("<dd>" + field_parts[1] + "</dd>");
+        }
+        document.write("</dl>");
+    }
+}
+//]]>
+</script>
+</head>
+
+<body>
+    <h1>Survey Data</h1>
+    <script>display_data();</script><dl><dt>email</dt><dd>swathireddy.bendram26@gmail.com</dd><dt>firstname</dt><dd>swathi</dd><dt>lastname</dt><dd>reddy</dd><dt>state</dt><dd>MD</dd><dt>zipcode</dt><dd>21076</dd><dt>web</dt><dd>websearch</dd><dt>facebook</dt><dd>facebook</dd><dt>button</dt><dd>Submit</dd></dl>
+
+</body></html>
