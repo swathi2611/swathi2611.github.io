@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../images/bats.gif);
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+header {
+    border-bottom: 2px solid black;
+    height: 5vw;
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(45deg, white 0%, #FFA500 75%, black 100%);
+
+
+}
+
+header h2 {
+    font-size: 2.50vw;
+    padding: 0.5em 1em;
+    font-family: sans-serif;
+    text-indent: 0.625em;
+    margin-top: 0.625em;
+    padding-bottom: 0em;
+
+}
+
+header img {
+    float: left;
+    padding: 0.5em;
+    max-height: 100%;
+    min-width: 40px;
+}
+
+
+
+header h3 {
+    font-size: 1vw;
+    text-indent: 1.50em;
+    line-height: 0.063em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+}
+
+
+body h3 {
+    padding: 0 0.5em;
+    margin-bottom: 0;
+    font-size: 1.5vw;
+
+}
+
+body h2 {
+    padding: 0em;
+    margin: 0;
+    font-size: 2vw;
+
+}
+
+.first-letter h2::first-letter {
+    font-size: 200%;
+}
+
+
+body p {
+    font-size: 1.20vw;
+    font-weight: 100%;
+    padding: 0 0.5em;
+    margin: 0.5em;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 80vw;
+    max-width: 960px;
+    border: 1px solid black;
+    box-shadow: 3px 15px 18px 10px black;
+    background: white;
+    position: fixed;
+    padding: 0em;
+    top: 50%;
+    height: 100%;
+    left: 50%;
+    margin: 1 em;
+    transform: translate(-50%, -50%);
+}
+
+a:link {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #FFA500;
+}
+
+a:hover,
+a:focus {
+    color: green;
+}
+
+
+ul {
+    margin: 0 1em;
+    padding: 0em;
+    line-height: 1.5em;
+}
+
+li {
+    font-size: 110%;
+    margin: 0.25em;
+    padding: 0em;
+}
+
+main {
+
+    height: 83%;
+    width: 100%;
+}
+
+
+footer {
+    position: fixed;
+    height: 7%;
+    width: 100%;
+    font-size: 80%;
+    padding-top: 0.938em;
+    text-align: center;
+    clear: left;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+}
+
+aside {
+    float: left;
+    width: 160px;
+    height: 600px;
+    padding-top: 1em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+aside ul {
+    list-style-type: block;
+    margin-left: 0em;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 0.938em;
+    padding-left: 0.625em;
+    position: relative;
+
+
+}
+
+.main-section {
+    padding-top: 0.938em;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin-bottom: 0.5em;
+    width: 8.45vw;
+    border: 3px solid black;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+    color: black;
+    font-size: 1.25vw;
+    background-color: #FFA500;
+    font-weight: bold;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: red;
+    height: 5%;
+    width: 100%;
+    padding-left: 2.500em;
+}
+
+.topnav li {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 1.25em;
+    padding-bottom: 0.313em;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.25vw;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+
+    font-size: 1.0em;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1.0em;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.0em;
+    font-size: 1.0em;
+    border: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.750em 1.0em;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.catimg a {
+    
+    font-size: 1vw;
+}
+
+

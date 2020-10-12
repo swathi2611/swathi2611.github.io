@@ -1,0 +1,7 @@
+[1009/011451.131:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1009/133821.666:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/175010.861:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1011/182841.199:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\gshiv\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\58f2b8f6-131a-4d4c-bc63-7ecff0effb45: The system cannot find the path specified. (0x3)
+[1012/095452.394:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/132902.046:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/192814.242:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
