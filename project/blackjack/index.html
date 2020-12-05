@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SwathiBendram -Black Jack</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<div id="table">
+		<div id="dealerScore" class="score">
+			Dealer score: <span>0</span>
+		</div>
+
+		<div class="box" id="dealer"></div>
+
+		<div class="border-line"></div>
+
+		<div id="playerScore" class="score">
+			Your score: <span>0</span>
+		</div>
+		<div class="box" id="player"></div>
+	</div>
+
+	<div id="board">
+		<div id="status">Press Deal to start game</div>
+
+		<button id="deal" class="deals" type="button" disabled onclick="dealCards()">DEAL</button>
+		<button id="hit" class="hit" type="button" disabled
+			onclick="hitCard()">HIT</button>
+		<button id="stand" class="stnd" type="button" disabled
+			onclick="standDeck()">STAND</button>
+	</div>
+
+	<script type="text/javascript" src="blackjack.js"></script>
+	<script type="text/javascript">initalizeGame()</script>
+</body>
+</html>

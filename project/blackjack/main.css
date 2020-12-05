@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgba(30,66,0,1);
+  background: linear-gradient(to bottom, rgba(30,66,0,1) 0%, rgba(35,161,16,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e4200', endColorstr='#23a110', GradientType=0 );
+  min-height: 100%;
+}
+
+#table {
+  position: relative;
+  padding-top: 20px;
+}
+
+#dealer{
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 200px;
+  position: relative;
+  width:100%;
+}
+
+.border-line {
+  border:4px dashed black;
+  opacity: 0.4;
+  margin: 20px 0;
+}
+
+.score {
+  position: relative;
+  text-align: center;
+  font-family: Gill Sans;
+  color: #F6F7EB;
+  opacity: 0.7;
+  font-size: 20px;
+  z-index:10;
+  text-shadow: 1px 1px 2px rgba(10, 10, 10, 1);
+}
+
+/* footer */
+#board {
+  text-align: center;
+  background-color: #40434E;
+  border-top: 1px solid #070707;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#status {
+  font-family: Gill Sans;
+  text-shadow: 1px 1px 2px rgba(10, 10, 10, 1);
+  color: #55acee;
+  position: relative;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+/* buttons */
+button {
+  border:none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #F6F7EB;
+  position: relative;
+  display: inline-block;
+  font-family: Gill Sans;
+  text-shadow: 1px 1px 2px rgba(10, 10, 10, 1);
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px .5px 0px 0px;
+}
+
+.deals {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.deals:hover {
+  background-color: #6FC6FF;
+}
+
+.hit {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.hit:hover {
+  background-color: #48E68B;
+}
+
+.stnd {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.stnd:hover {
+  background-color: #FF6656;
+}
+
+button:disabled {
+  background-color: #999;
+  box-shadow: 0px 5px 0px 0px #AAA;
+}
+
+button:disabled:hover {
+  background-color: #999;
+}
+
+button:disabled:active {
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  box-shadow: 0px 5px 0px 0px #AAA;
+}
+
+
+html, body, div, span,
+html, body, div, span,
+h1, img, center,
+table, footer, header, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+footer, header, {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
